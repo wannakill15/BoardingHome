@@ -105,7 +105,7 @@
                         <button type="reset" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                    <span class="badge rounded-pill bg-light text-dark mb-3 text-warp lh-base">
+                    <span class="badge rounded-pill bg-light text-dark mb-3 text-wrap lh-base">
                         Note: Your details must match with you ID (National ID, Drivering License, Passport, etc.) in order to check-in.
                     </span>
                     <div class="container-fliud">
