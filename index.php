@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
     <style>
         *{
         font-family: "Raleway", sans-serif;
@@ -16,21 +18,20 @@
         .h-font{
             font-family: "Abril Fatface", serif;
         }
-        /* Chrome, Safari, Edge, Opera */
+
         input::-webkit-outer-spin-button,
         input::-webkit-inner-spin-button {
         -webkit-appearance: none;
         margin: 0;
         }
 
-        /* Firefox */
         input[type=number] {
         -moz-appearance: textfield;
         }     
     </style>
 
 </head>
-<body>
+<body class="bg-light">
     <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-light bg-white px-lg-3 py-lg-2 shadow-sm sticky-top">
     <div class="container-fluid">
         <a class="navbar-brand me-4 fw-bold fs-3 h-font"  href="index.php">Boarding Home</a>
@@ -159,6 +160,43 @@
         </div>
     </div>
 
+    <div class="container-fluid px-lg-4 mt-4">
+        <div class="swiper swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/carousel/1.png" class="w-100 d-block"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/carousel/2.png" class="w-100 d-block"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/carousel/3.png" class="w-100 d-block"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/carousel/4.png" class="w-100 d-block"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/carousel/5.png" class="w-100 d-block"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/carousel/6.png" class="w-100 d-block"/>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".swiper-container", {
+        spaceBetween: 30,
+        effect: "fade",
+        loop: true,
+        autoplay: {
+            delay: 3500,
+            disableOnInteraction: false,
+        }
+        });
+    </script>
 </body>
 </html>
