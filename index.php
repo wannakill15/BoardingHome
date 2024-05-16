@@ -1,3 +1,23 @@
+<?php
+/**
+ * File Name: index.php
+ * Purpose: This file serves as the front-end entry point for the BoardingHub website. 
+ * It displays available rooms, handles user registration, login, and other interactions.
+ * Authors: [Mark John Jopia] [Kenneth Bacaresas] [Russell Osias]
+ * Contact: [markjohnjopia1@gmail.com] [ken.ae26@gmail.com] [osiasrussell@gmail.com]
+ * Date Created: [May 4, 2024]
+ * Last Modified: [May 16,2024]
+ * 
+ * Overview:
+ * This file includes the main HTML structure and integrates PHP to 
+ * fetch and display dynamic content from the database.
+ * It manages:
+ * - Display of available rooms
+ * - User registration and login forms
+ * - Navigation and layout components
+ */
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -445,8 +465,8 @@
         </div>
     </div>
 
-    <!-- Our Testemonial form -->
-    <h2 class="mt-5 pt-4 mb-4 text-center fw-bold h-font"> TESTEMONIAL</h2>
+    <!-- Our Reviews form -->
+    <h2 class="mt-5 pt-4 mb-4 text-center fw-bold h-font"> Reviews</h2>
 
     <div class="container">
         <div class="swiper swiper-testemonial">
@@ -454,49 +474,49 @@
               <div class="swiper-slide bg-white p-4">
                 <div class="profile d-flex align-items-center mb-4">
                     <img src="images/features/star.svg" width="30px">
-                    <h5 class="m-0 ms-2">Random User1</h5>
+                    <h5 class="m-0 ms-2">Jean Gunnhildr</h5>
                 </div>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                    Eligendi molestias possimus voluptatem animi dolorum quisquam, 
-                    assumenda velit in neque dignissimos rerum tempore sed 
-                    exercitationem porro incidunt. Id inventore iure quis.
+                BoardingHome provided a fantastic stay with clean, 
+                spacious rooms and friendly staff,
+                making the booking and management process seamless. 
+                Highly recommended for a comfortable living experience."
+               
                 </p>
                 <div class="rating">
                     <i class="bi bi-star-fill text-warning"></i>
                     <i class="bi bi-star-fill text-warning"></i>
                     <i class="bi bi-star-fill text-warning"></i>
                     <i class="bi bi-star-fill text-warning"></i> 
+                    <i class="bi bi-star-fill text-warning"></i>
                 </div>
               </div>
               <div class="swiper-slide bg-white p-4">
                 <div class="profile d-flex align-items-center mb-4">
                     <img src="images/features/star.svg" width="30px">
-                    <h5 class="m-0 ms-2">Random User1</h5>
+                    <h5 class="m-0 ms-2">Diluc Ragnvindr </h5>
                 </div>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                    Eligendi molestias possimus voluptatem animi dolorum quisquam, 
-                    assumenda velit in neque dignissimos rerum tempore sed 
-                    exercitationem porro incidunt. Id inventore iure quis.
+                BoardingHome was generally positive with decent rooms,
+                but maintenance issues and slow staff response need improvement. 
+                Overall, a good place with some room for enhancement.
                 </p>
                 <div class="rating">
                     <i class="bi bi-star-fill text-warning"></i>
                     <i class="bi bi-star-fill text-warning"></i>
                     <i class="bi bi-star-fill text-warning"></i>
-                    <i class="bi bi-star-fill text-warning"></i> 
+                   
                 </div>
               </div>
               <div class="swiper-slide bg-white p-4">
                 <div class="profile d-flex align-items-center mb-4">
                     <img src="images/features/star.svg" width="30px">
-                    <h5 class="m-0 ms-2">Random User1</h5>
+                    <h5 class="m-0 ms-2">Lisa Minci</h5>
                 </div>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                    Eligendi molestias possimus voluptatem animi dolorum quisquam, 
-                    assumenda velit in neque dignissimos rerum tempore sed 
-                    exercitationem porro incidunt. Id inventore iure quis.
+                BoardingHome offered a pleasant stay with well-maintained facilities and helpful staff,
+                despite a slight delay in booking confirmation. 
+                Great value and recommended for a comfortable stay.
                 </p>
                 <div class="rating">
                     <i class="bi bi-star-fill text-warning"></i>
