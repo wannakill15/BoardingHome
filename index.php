@@ -6,7 +6,7 @@
  * Authors: [Mark John Jopia] [Kenneth Bacaresas] [Russell Osias]
  * Contact: [markjohnjopia1@gmail.com] [ken.ae26@gmail.com] [osiasrussell@gmail.com]
  * Date Created: [May 4, 2024]
- * Last Modified: [May 16,2024]
+ * Last Modified: [May 18,2024]
  * 
  * Overview:
  * This file includes the main HTML structure and integrates PHP to 
