@@ -23,7 +23,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boarding Homes</title>
+    <title>Boarding Hub</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -51,7 +51,7 @@
 <body class="bg-light">
     <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-light bg-white px-lg-3 py-lg-2 shadow-sm sticky-top">
     <div class="container-fluid">
-        <a class="navbar-brand me-4 fw-bold fs-3 h-font"  href="index.php">Boarding Home</a>
+        <a class="navbar-brand me-4 fw-bold fs-3 h-font"  href="index.php">Boarding Hub</a>
         <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -477,7 +477,7 @@
                     <h5 class="m-0 ms-2">Jean Gunnhildr</h5>
                 </div>
                 <p>
-                BoardingHome provided a fantastic stay with clean, 
+                BoardingHub provided a fantastic stay with clean, 
                 spacious rooms and friendly staff,
                 making the booking and management process seamless. 
                 Highly recommended for a comfortable living experience."
@@ -497,7 +497,7 @@
                     <h5 class="m-0 ms-2">Diluc Ragnvindr </h5>
                 </div>
                 <p>
-                BoardingHome was generally positive with decent rooms,
+                BoardingHub was generally positive with decent rooms,
                 but maintenance issues and slow staff response need improvement. 
                 Overall, a good place with some room for enhancement.
                 </p>
@@ -514,7 +514,7 @@
                     <h5 class="m-0 ms-2">Lisa Minci</h5>
                 </div>
                 <p>
-                BoardingHome offered a pleasant stay with well-maintained facilities and helpful staff,
+                BoardingHub offered a pleasant stay with well-maintained facilities and helpful staff,
                 despite a slight delay in booking confirmation. 
                 Great value and recommended for a comfortable stay.
                 </p>
@@ -591,9 +591,9 @@
     <div class="container-fluid bg-white mt-5">
         <div class="row">
             <div class="col-lg-4 p-4">
-                <h3 class="h-font fw-bold fs-3 mb-2">Boarding Home</h3>
+                <h3 class="h-font fw-bold fs-3 mb-2">Boarding Hub</h3>
                 <p>
-                    (Discription about the Boarding Home)
+                    (Discription about the Boarding Hub)
                 </p>
             </div>
             <div class="col-lg-4 p-4">
