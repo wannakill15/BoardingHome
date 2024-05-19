@@ -1,4 +1,5 @@
 <?php
+
 /**
  * File Name: index.php
  * Purpose: This file serves as the front-end entry point for the BoardingHub website. 
@@ -23,15 +24,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boarding Hub</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="css/common.css ">
-
+    <title>Boarding Hub - Home
+    </title>
+    <?php require('inc/link.php') ?>
     <style>
         .availability-form{
             margin-top: -50px;
@@ -49,41 +44,7 @@
 
 </head>
 <body class="bg-light">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-light bg-white px-lg-3 py-lg-2 shadow-sm sticky-top">
-    <div class="container-fluid">
-        <a class="navbar-brand me-4 fw-bold fs-3 h-font"  href="index.php">Boarding Hub</a>
-        <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-            <a class="nav-link active me-2" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item me-2">
-            <a class="nav-link" href="#">Rooms</a>
-            </li>
-            <li class="nav-item me-2">
-            <a class="nav-link" href="#">Facilities</a>
-            </li>
-            <li class="nav-item me-2">
-            <a class="nav-link" href="#">Contact Us</a>
-            </li>
-            <li class="nav-item me-2">
-            <a class="nav-link" href="#">About Us</a>
-            </li>
-        </ul>
-            <div class="d-flex" role="search">
-                <button type="button" class="btn btn-outline-dark shadow-none me-lg-3 me-2" data-bs-toggle="modal" data-bs-target="#loginModal">
-                    Login
-                </button>
-                <button type="button" class="btn btn-outline-dark shadow-none" data-bs-toggle="modal" data-bs-target="#registerModal">
-                    Register
-                </button>
-            </div>
-        </div>
-    </div>
-    </nav>
+    <?php require('inc/header.php') ?>
 
     <div class="modal fade" id="loginModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -588,38 +549,8 @@
         </div>
     </div>
     
-    <div class="container-fluid bg-white mt-5">
-        <div class="row">
-            <div class="col-lg-4 p-4">
-                <h3 class="h-font fw-bold fs-3 mb-2">Boarding Hub</h3>
-                <p>
-                    (Discription about the Boarding Hub)
-                </p>
-            </div>
-            <div class="col-lg-4 p-4">
-                <h5 class="mb-3">Links</h5>
-                <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">Home</a> <br>
-                <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">Rooms</a> <br>
-                <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">Facilities</a> <br>
-                <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">Contact Us</a> <br>
-                <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">About Us</a> <br>
-            </div>
-            <div class="col-lg-4 p-4">
-                <h5 class="mb-3">Follow Us</h5>
-                <a href="#" class="d-inline-block text-dark text-decoration-none mb-2">
-                    <i class="bi bi-twitter"></i> Twitter
-                </a> <br>
-                <a href="#" class="d-inline-block text-dark text-decoration-none mb-2">
-                    <i class="bi bi-facebook"></i> Facebook
-                </a> <br>
-                <a href="#" class="d-inline-block text-dark text-decoration-none">
-                    <i class="bi bi-instagram"></i> Instagram
-                </a> <br>
-            </div>
-        </div>
-    </div>
+    <?php require('inc/footer.php') ?>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     
     <script>
