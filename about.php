@@ -33,6 +33,10 @@
             transform: scale(1.03);
             transition: all 0.3s;
         }
+
+        .box{
+            border-top-color: var(--teal) !important;
+        }
     </style>
 
 </head>
@@ -52,7 +56,7 @@
 
     <div class="container">
         <div class="row justify-content-between align-items-center">
-            <div class="col-lg-6 col-md-5 mb-4 order-2">
+            <div class="col-lg-6 col-md-5 mb-4 order-lg-1 order-md-1 order-2">
                 <h3 class="mb-3"> Lorem ipson dolor sit</h3>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -62,13 +66,42 @@
                     nesciunt.
                 </p>
             </div>
-            <div class="col-lg-5 col-md-5 mb-4 order-1">
+            <div class="col-lg-5 col-md-5 mb-4 order-lg-2 order-md-2 order-1 ">
                 <img src="images/about/about.jpg " class="w-100">
             </div>
         </div>
     </div>
 
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 mb-4 px-4">
+                <div class="bg-white rounded shadow p-4 border-top border-4 text-center box">
+                    <img src="images/about/hotel.svg" width="70px">
+                    <h4 class="mt-3">100+ Rooms</h4>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 px-4">
+                <div class="bg-white rounded shadow p-4 border-top border-4 text-center box">
+                    <img src="images/about/hotel.svg" width="70px">
+                    <h4 class="mt-3">100+ Rooms</h4>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 px-4">
+                <div class="bg-white rounded shadow p-4 border-top border-4 text-center box">
+                    <img src="images/about/hotel.svg" width="70px">
+                    <h4 class="mt-3">100+ Rooms</h4>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 px-4">
+                <div class="bg-white rounded shadow p-4 border-top border-4 text-center box">
+                    <img src="images/about/hotel.svg" width="70px">
+                    <h4 class="mt-3">100+ Rooms</h4>
+                </div>
+            </div>
+        </div>
+    </div>
     
     <?php require('inc/footer.php') ?>
+
 </body>
 </html>
