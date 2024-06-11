@@ -77,11 +77,50 @@
                             <i class="bi bi-phone-fill"></i> +639514810354
                         </span>
                     </a>
+                    <h5 class="mt-4">Email</h5>
+                    <a href="mailto: ken.ae26@gmail.com" class="d-inline-block text-decoration-none text-dark">
+                    <i class="bi bi-envelope"></i> ken.ae26@gmail.com
+                    </a>
+
+                    <h5 class="mt-4">Follow Us</h5>
+                    <a href="#" class="d-inline-block text-dark fs-5 me-2">
+                        <i class="bi bi-twitter"></i>
+                    </a> 
+                    <a href="#" class="d-inline-block text-dark fs-5 me-2">
+                        <i class="bi bi-facebook"></i>
+                    </a> 
+                    <a href="#" class="d-inline-block text-dark fs-5">
+                        <i class="bi bi-instagram"></i> 
+                    </a>
+
                     </div>
+            </div>
+            <div class="col-lg-6 col-md-6 px-4">
+                <div class="bg-white rounded shadow p-4">
+                    <form action="">
+                        <h5>Send a message</h5>
+                        <div class="mb-3">
+                            <label for="form-label" style="font-weight: 500;">Name</label>
+                            <input type="text" class="form-control shadow-none">
+                        </div>
+                        <div class="mb-3">
+                            <label for="form-label" style="font-weight: 500;">Email</label>
+                            <input type="email" class="form-control shadow-none">
+                        </div>
+                        <div class="mb-3">
+                            <label for="form-label" style="font-weight: 500;">Subject</label>
+                            <input type="text" class="form-control shadow-none">
+                        </div>
+                        <div class="mb-3">
+                            <label for="form-label" style="font-weight: 500;">Message</label>
+                            <textarea class="form-control shadow-none" rows="5" style="resize: none"></textarea>
+                        </div>
+                        <button type="submit" class="btn text-white custom-bg mt=3">SEND</button>
+                    </form>
                 </div>
             </div>
-
         </div>
+
     </div>
     
     <?php require('inc/footer.php') ?>
