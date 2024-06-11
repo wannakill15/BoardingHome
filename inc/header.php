@@ -16,7 +16,7 @@
             <a class="nav-link" href="facilities.php">Facilities</a>
             </li>
             <li class="nav-item me-2">
-            <a class="nav-link" href="#">Contact Us</a>
+            <a class="nav-link" href="contact_us.php">Contact Us</a>
             </li>
             <li class="nav-item me-2">
             <a class="nav-link" href="about.php">About Us</a>

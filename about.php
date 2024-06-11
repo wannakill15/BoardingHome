@@ -82,26 +82,84 @@
             </div>
             <div class="col-lg-3 col-md-6 mb-4 px-4">
                 <div class="bg-white rounded shadow p-4 border-top border-4 text-center box">
-                    <img src="images/about/hotel.svg" width="70px">
-                    <h4 class="mt-3">100+ Rooms</h4>
+                    <img src="images/about/customers.svg" width="70px">
+                    <h4 class="mt-3">200+ Customers</h4>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-4 px-4">
                 <div class="bg-white rounded shadow p-4 border-top border-4 text-center box">
-                    <img src="images/about/hotel.svg" width="70px">
-                    <h4 class="mt-3">100+ Rooms</h4>
+                    <img src="images/about/rating.svg" width="70px">
+                    <h4 class="mt-3">250 Reviews</h4>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-4 px-4">
                 <div class="bg-white rounded shadow p-4 border-top border-4 text-center box">
-                    <img src="images/about/hotel.svg" width="70px">
-                    <h4 class="mt-3">100+ Rooms</h4>
+                    <img src="images/about/staff.svg" width="70px">
+                    <h4 class="mt-3">200+ Staff</h4>
                 </div>
             </div>
         </div>
     </div>
+
+    <h2 class="my-5 fw-bold h-font text-center"> Management Team</h2>
+        <div class="container px-4">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper mb-5">
+                    <div class="swiper-slide bg-white text-center overflow-hidden rounded">
+                        <img src="images/about/team.jpg" class="w-100">
+                        <h5 class="mt-2">Random Name</h5>
+                    </div>
+                    <div class="swiper-slide bg-white text-center overflow-hidden rounded">
+                        <img src="images/about/team.jpg" class="w-100">
+                        <h5 class="mt-2">Random Name</h5>
+                    </div>
+                    <div class="swiper-slide bg-white text-center overflow-hidden rounded">
+                        <img src="images/about/team.jpg" class="w-100">
+                        <h5 class="mt-2">Random Name</h5>
+                    </div>
+                    <div class="swiper-slide bg-white text-center overflow-hidden rounded">
+                        <img src="images/about/team.jpg" class="w-100">
+                        <h5 class="mt-2">Random Name</h5>
+                    </div>
+                    <div class="swiper-slide bg-white text-center overflow-hidden rounded">
+                        <img src="images/about/team.jpg" class="w-100">
+                        <h5 class="mt-2">Random Name</h5>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
     
     <?php require('inc/footer.php') ?>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 4,
+        spaceBetween: 10,
+        pagination: {
+        el: ".swiper-pagination",
+        },
+        breakpoints: {
+            320:{
+                slidesPerView: 1,
+            },
+            640:{
+                slidesPerView: 1,
+            },
+            768:{
+                slidesPerView: 2,
+            },            
+            1024:{
+                slidesPerView: 3,
+            },
+        }
+
+    });
+    </script>
 
 </body>
 </html>
